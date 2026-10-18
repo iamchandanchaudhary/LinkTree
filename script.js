@@ -22,7 +22,7 @@ portfolioShare.addEventListener("click", (event) => {
     if (navigator.share) {
         navigator.share({
             title: "Chandan Chaudhary's Portfolio Wbesite.",
-            url: "https://chandanchaudhary-portfolio.netlify.app/",
+            url: "https://www.chandanchaudhary.in",
         }).then(() => console.log("Thanks for Sharing"))
             .catch((err) => console.log(err));
     } else {
